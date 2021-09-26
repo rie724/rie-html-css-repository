@@ -1,0 +1,21 @@
+*{
+    margin:30px;
+    padding: 50px;
+    background-color:darkseagreen;
+}
+div{
+    height:200px;
+    width:200px;
+}
+p{
+    color:chartreuse;
+}
+.div1{
+    background-color:coral;
+    margin:100px;
+
+}
+.div2{
+    background-color:darkgray;
+    padding: 10px 30px 20px 50px;
+}

@@ -1,0 +1,41 @@
+ol li.leading-zero{
+    list-style-type:decimal-leading-zero;
+}
+
+ol li.lower-alpha{
+    list-style-type:lower-alpha;
+}
+ol li.upper-alpha{
+    list-style-type:upper-alpha;
+}
+
+ol li.lower-roman{
+    list-style-type:lower-roman;
+}
+
+ol li.upper-roman{
+    list-style-type:upper-roman;
+}
+
+ul li.none{
+    list-style-type:none;
+}
+ul li.dics{
+    list-style-type:disc;
+}
+ul li.circle{
+    list-style-type:circle;
+}
+ul li.square{
+   list-style-type:square;
+
+}
+
+ul li.inside{
+    list-style: circle inside;
+}
+
+ul li.outside{
+    list-style-type: square;
+    list-style-position: outside;
+}

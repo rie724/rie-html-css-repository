@@ -1,0 +1,22 @@
+div{
+    float:right;
+    width:100px;
+    height:100px;
+    margin:10px;
+}
+.div1{
+    background-color:red;
+  
+}
+.div2{
+    background-color:royalblue;
+  
+}
+.div3{
+    background-color: slateblue;
+    
+}
+.div4{
+    background-color: salmon;
+  
+}

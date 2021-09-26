@@ -1,0 +1,26 @@
+header{
+    background-color: aquamarine;
+    
+}
+header h1{
+    text-align: center;
+}
+nav{
+    float:right;
+    margin-right:50px;
+}
+section{
+    width:300px;
+    padding: 10px;
+    float:left;
+    border:0.5px solid black;
+}
+aside{
+    width:40%;
+    background-color: greenyellow;
+    float: right;
+    padding:5px;
+    clear:right;
+    height: 500px;
+    width:200px;
+}

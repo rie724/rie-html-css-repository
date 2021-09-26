@@ -1,0 +1,51 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.static{
+    position:static;
+    background-color:brown;
+}
+.relative{
+    position: relative;
+    background-color:palegreen;
+    top:50px;
+    left: 50px;
+}
+.fixed{
+    position:fixed;
+    background-color: darkblue;
+    right:10px;
+    bottom:10px;
+    padding: 20px;
+}
+.fixed a{
+    font-size: 50px;
+    text-align: center;
+    color:white;
+    padding:20px;
+    text-decoration: none;
+}
+.absolute {
+    position:absolute;
+    top:50px;
+    right:50px;
+    background-color: violet;
+
+}
+.parent{
+    position:relative;
+    width: 500px;
+    height: 500px;
+    background-color: yellow;
+}
+.child{
+    position: absolute;
+    width:60px;
+    height: 60px;
+    background-color:turquoise;
+    top:350px;
+    right: 350px;
+}

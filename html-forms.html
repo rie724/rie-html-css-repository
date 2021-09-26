@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="" method="">
+        <label for="first-name">First Name</label>
+        <input type="text" name="first_name" id="first-name">
+        <!-- 
+        : =type
+        #=id
+        label for=input id
+
+        id,class lowercase,kebab case(my-name-is-john)
+        name---lowercase,snake case(my_name_is_john) underscore
+        name and id is ok to create by own
+
+        input:text#first-name short cut to create input tag
+            -->
+        <br>
+        <label for="last-name">Last Name</label>
+        <input type="text" name="last_name" id="last-name">
+        <br>
+
+        <label for="user-password">User Password</label>
+        <input type="password" name="user_password" id="user-password">
+        <br>
+        
+        <label for="birthday">Birthday</label>
+        <input type="date" name="birthday" id="birthday">
+        <br>
+        <label for="personal-email">Personal Email</label>
+        <input type="email" name="personal_email" id="personal-email">
+        <br>
+
+        <input type="submit" value="SEND">
+        <br>
+        
+        <label for="commetns">commetns</label>
+        <textarea name="commetns" id="comments" cols="30" rows="10"></textarea>
+        <br>
+    </form>
+        <br>
+            <p>Choose your favorite Web Language:</p>
+        <form>
+            <h2>Radio Buttons</h2>
+            <input type ="radio" id="html" name="five_language" value="HTML">
+            <label for="html">HTML</label><br>
+            <input type ="radio" id="html" name="five_language" value="CSS">
+            <label for="html">CSS</label><br>
+            <input type ="radio" id="html" name="five_language" value="JavaScript">
+            <label for="html">JavaScript</label><br>
+            <br>
+            <h2>Checkboxes</h2>
+            <input type ="checkbox" id="html" name="five_language" value="HTML">
+            <label for="html">HTML</label><br>
+            <input type ="checkbox" id="html" name="five_language" value="CSS">
+            <label for="html">CSS</label><br>
+            <input type ="checkbox" id="html" name="five_language" value="JavaScript">
+            <label for="html">JavaScript</label><br>
+            <br>
+            <br>
+
+            <h2>Dropdown</h2>
+            <label for="web-language">Choose your favorite:</label>
+            <select name="web-language" id="web-language">
+                <option value="html">HTML</option>
+                <option value="css">CSS</option>
+                <option value="javascript">JavaScript</option> 
+            </select>
+            <br>
+            <h2>Select File</h2>
+            <p>This allows only one file</p>
+            <label for="myfile">Select a file:</label>
+            <input type="file" id="myfile" name="myfile"><br>
+            <p>This allows multiple file </p>
+            <label for="myfile">Select a file:</label>
+            <input type="file" id="myfile" name="myfile" multiple><br>
+            <br>
+            <h2>Buttons</h2>
+                <input type="submit" name="submit" id="submit" value="Click"><br>
+                <button>I am button</button>
+
+            
+        </form>
+        <br>
+        <form action="#">
+            <label for ="fristName">First Name</label>
+            <input type="text" name="firstName" id="firstName" required><br>
+            <label for ="fristName">Last Name</label>
+            <input type="text" name="lastName" id="lastName"required><br>
+            <input type="submit" value="SUBMIT"><br>
+
+           <label for="quantity">Quantity(Choose between 1 and 5):</label>
+           <input type="number" name="quantity" id="quantity" min="1" max="5"><br>
+            <br>
+            <label for="dateMax">Enter a date before 1980-01-01</label>
+            <input type="date" name="dateMax" id="dateMax" max="1979-12-31"><br>
+
+            <label for="dateMax">Enter a date after 1980-01-01</label>
+            <input type="date" name="dateMax" id="dateMax" min="2000-01-02"><br>
+
+    
+            <input type="submit" value="SUBMIT"><br>
+
+        </form>
+            
+    
+</body>
+</html>

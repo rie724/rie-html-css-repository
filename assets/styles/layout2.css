@@ -1,0 +1,25 @@
+div{
+    float:left;
+    width:100px;
+    height:100px;
+    margin:10px;
+}
+.div1{
+    background-color:red;
+    clear:none;
+  
+}
+.div2{
+    background-color:royalblue;
+    clear:left;
+  
+}
+.div3{
+    background-color: slateblue;
+    clear:right;
+}
+.div4{
+    background-color: salmon;
+    clear:left;
+  
+}

@@ -1,0 +1,20 @@
+h1{
+    font-family:serif;
+}
+h2{
+    font-family:sans-serif;
+}
+
+h3{
+    color:crimson;
+    font-family:monospace;
+}
+#chapter-one{
+    color:rgb(51,71,107);
+}
+#chapter-two{
+    color:rgba(132,61,182,0.5);
+}
+#chapter-three{
+    color:#77ebe5;
+}
